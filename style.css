@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+
+}
+
+html, body {
+    height: 100%;
+    width: 100%;;
+}
+
+body {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.container {
+    padding: 20px;
+    max-width: 400px;
+    max-height: 450;
+    border: 1px solid rgb(185, 185, 185);
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap:4px
+}
+
+.btSearch {
+    padding: 10px;
+    background-color: rgb(6, 6, 105);
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+#name-type {
+    padding: 10px;
+    background-color: rgb(247, 168, 0);
+    color: rgb(0, 0, 0);
+    border-style: none;
+    border-radius: 5px;  
+    font-weight: bold;
+}
+
+#pesquisa {
+    height: 35px;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+label {
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    color: rgb(6, 6, 105);
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 20px;
+}
+span {
+    color:rgb(6, 6, 105);
+}
+
+img {
+    padding: 20px;
+}
+
+#pesquisa::placeholder {
+    text-align:left;
+    margin-right:5px;
+    font-family: 'Poppins', sans-serif;
+}
